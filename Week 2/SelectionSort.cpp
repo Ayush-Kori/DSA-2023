@@ -1,5 +1,11 @@
 #include <iostream>  
 #include <vector>  
+
+// We perform the steps given below until the unsorted subarray becomes empty
+// 1. Pick the minimum element from the unsorted array 
+// 2. Swap it with the leftmost element of the unsorted subarray
+// 3. Now the leftmost element of unsorted subarray becomes a part(rightmost) of sorted subarray and will
+//  not be a part of unsorted array
   
 using namespace std;  
 
